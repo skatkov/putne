@@ -15,6 +15,6 @@
 //= require bootstrap-sprockets
 //= require d3
 //= require nvd3-rails
-//= require sparkline/dist/jquery.sparkline.min
+//= require jquery.sparkline.min
 //= require_tree .
 
