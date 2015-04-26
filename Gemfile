@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-# ruby '2.0.0'
+ruby '2.0.0'
 gem 'rails', '4.0.0'
 
 # Rails 3 compatibility
@@ -66,14 +66,19 @@ gem 'sidekiq'
 gem 'sinatra', require: false
 
 # metrics
-gem 'rails_best_practices'  
-gem 'simplecov', :require => false
+gem 'rails_best_practices'
+gem 'simplecov'
 gem 'simplecov-rcov', :require => false
 gem 'ci_reporter'
-gem 'metric_fu'
+gem 'ci_reporter_rspec'
+
+# requires 2.0.0.alpha1 why?
+# gem 'ci_reporter_cucumber'
+
+# this gem is commented because it brings un-working rcov to a project
+# gem 'metric_fu'
 gem 'churn', github: "danmayer/churn"
 gem 'metric_fu_report_parser', github: 'nacyot/metric-fu-report-parser'
-#gem 'rcov', '0.9.11'
 
 # code highlight
 gem 'coderay'
