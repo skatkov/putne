@@ -133,3 +133,6 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'haml-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'slim'
+
+
+gem "nvd3-rails", :git => "git@github.com:adeven/nvd3-rails.git", :submodules => true
