@@ -27,6 +27,9 @@
 *#
 *.log
 
+#ignore IDE files
+.idea/
+
 #from https://github.com/github/gitignore/blob/master/Rails.gitignore
 **.orig
 rerun.txt
