@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap/dist/js/bootstrap.min
+//= require bootstrap-sprockets
 //= require d3/d3.min
 //= require nvd3-rails
 //= require sparkline/dist/jquery.sparkline.min

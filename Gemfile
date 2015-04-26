@@ -40,7 +40,7 @@ gem 'cancan'
 gem 'rolify'
 
 # view
-gem 'twitter-bootstrap-rails'
+gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'kaminari'
 
@@ -128,11 +128,11 @@ group :doc do
 end
 
 #assets
-gem 'less-rails'
+gem 'sass-rails', '>= 3.2'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'haml-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'slim'
+gem 'font-awesome-sass', '~> 4.3.0'
 
-
-gem "nvd3-rails", :git => "git@github.com:adeven/nvd3-rails.git", :submodules => true
+gem 'nvd3-rails', :git => 'git@github.com:adeven/nvd3-rails.git', :submodules => true
